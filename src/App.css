@@ -1,0 +1,40 @@
+@media print {
+  @page {
+    size: 297mm 420mm;
+  }
+
+  .newpage {
+    page-break-before: always !important;
+    display: initial !important;
+  }
+
+  .printOnly {
+    display: initial !important;
+  }
+
+  .smallPhoto {
+    display: initial !important;
+  }
+
+  .largePhoto {
+    display: none !important;
+  }
+
+}
+
+.printOnly {
+  display: none;
+}
+
+.newpage {
+  display: none;
+}
+
+.smallPhoto {
+  display: none;
+  max-height: 7.2em;
+}
+
+.largePhoto {
+  max-width: 100%;
+}
