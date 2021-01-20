@@ -224,7 +224,7 @@ function Work() {
           <Experience
             date="2019 - present"
             title="Tech & Strategy Consultant"
-            at="Freelance"
+            at="Freelance, remote and Toulouse FR"
           >
             After working pro-bono with multiple early-stage startups
             I started as a freelance consultant. Challenging teams and
@@ -235,7 +235,7 @@ function Work() {
           <Experience
             date="2018 - present"
             title="Event coordinator & Creative writer"
-            at="Volunteer"
+            at="Volunteer, in person and online"
           >
             I run a biweekly social event focussed on collaborative
             story-telling. I encourage narrative generation and
@@ -246,7 +246,7 @@ function Work() {
           <Experience
             date="Apr. 2019 - Oct. 2019"
             title="Tech Lead"
-            at="Pepino"
+            at="Pepino, fully remote"
           >
             After months of weekly strategy consulting, I joined the
             project full time to lead the work on a new app. I built
@@ -257,7 +257,7 @@ function Work() {
           <Experience
             date="Apr. 2015 - Oct. 2018"
             title="Head of R&D"
-            at="Cenareo.com (ex CityMeo)"
+            at="Cenareo.com (ex CityMeo), Toulouse FR"
           >
 
             Witnessing the team scale from five to 30+, solving the
@@ -273,7 +273,7 @@ function Work() {
           <Experience
             date="2011 - 2015"
             title="Founder & Manager"
-            at="Epitech Toulouse Security Lab"
+            at="Security Lab - Epitech, Toulouse FR"
           >
             I organised events, supervised projects and taught classes
             focused on computer security. I coordinated with the
@@ -284,7 +284,7 @@ function Work() {
           <Experience
             date="Sep. 2014 - Feb. 2015"
             title="Security Consultant"
-            at="part-time at Neogeo Technologies"
+            at="part-time at Neogeo Technologies, Toulouse FR"
           >
             I assessed and helped increase the security standards of
             our client's web applications by performing audits and
@@ -304,7 +304,7 @@ function Work() {
           <Experience
             date="May - August 2013"
             title="Lead Python Developer"
-            at="intern at Neogeo Technologies"
+            at="intern at Neogeo Technologies, Toulouse FR"
           >
             Working on geographic information systems, I designed and
             implemented an API for managing MapServer's configuration
@@ -314,7 +314,7 @@ function Work() {
           <Experience
             date="2013"
             title="C & Embedded Engineer"
-            at="Airbus Innovation Cell"
+            at="Airbus Innovation Cell, Toulouse FR"
           >
             Through a partnership with Epitech I worked with Airbus
             engineers on prototyping distributed architectures using
@@ -324,7 +324,7 @@ function Work() {
           <Experience
             date="2011 - 2013"
             title="Teaching Assistant"
-            at="Epitech"
+            at="Epitech, Toulouse FR"
           >
             I mentored students, helping them discover new methods and
             techniques. I supervised practical work and participated
@@ -334,7 +334,7 @@ function Work() {
           <Experience
             date="Jun. - Sep. 2011"
             title="Python Developer"
-            at="intern at Trust"
+            at="intern at ITrust, Toulouse FR"
           >
             I wrote software to evaluate and quantify the user
             experience on websites. I used Python and Selenium.
