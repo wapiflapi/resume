@@ -445,7 +445,7 @@ function Publications() {
           <Publication
             date="Oct. 2019"
             title="Efficiency: Reverse Engineering with Ghidra"
-            href="https://web.archive.org/web/20201107233618/https://wapiflapi.github.io/2019/10/10/efficiency-reverse-engineering-with-ghidra.html"
+            href="https://wapiflapi.github.io/2019/10/10/efficiency-reverse-engineering-with-ghidra.html"
           >
             An introduction to some of Ghidra's feature, the reverse
             engineering software being new at the time.
@@ -454,7 +454,7 @@ function Publications() {
           <Publication
             date="Apr. 2015"
             title="Visualizing a single null-byte heap overflow exploitation"
-            href="https://web.archive.org/web/20201107233628/http://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow.html"
+            href="https://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow.html"
           >
             Building on work by Google's Project Zero, ressearch into
             exploiting a specific vulnerability and introduction of a
@@ -464,7 +464,7 @@ function Publications() {
           <Publication
             date="Nov. 2014"
             title="Hack.lu's OREO with ret2dl-resolve"
-            href="https://web.archive.org/web/20201107233628/http://wapiflapi.github.io/2014/11/17/hacklu-oreo-with-ret2dl-resolve.html"
+            href="https://wapiflapi.github.io/2014/11/17/hacklu-oreo-with-ret2dl-resolve.html"
           >
             Exploration of dynamic linking and how it can be turned
             into primitives for building reliable exploits.
@@ -483,7 +483,7 @@ function Publications() {
           <Publication
             date="Apr. 2014"
             title="Getting a shell on fruits - bkpctf 2014"
-            href="https://web.archive.org/web/20201107233628/http://wapiflapi.github.io/2014/04/30/getting-a-shell-on-fruits-bkpctf-2014.html"
+            href="https://wapiflapi.github.io/2014/04/30/getting-a-shell-on-fruits-bkpctf-2014.html"
           >
             Getting an unintended shell on a CTF challenge. Required
             finding interesting gadgets in libc.
@@ -492,7 +492,7 @@ function Publications() {
           <Publication
             date="Apr 2013"
             title="A python's escape from PlaidCTF jail"
-            href="https://web.archive.org/web/20201107233628/http://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html"
+            href="https://wapiflapi.github.io/2013/04/22/plaidctf-pyjail-story-of-pythons-escape.html"
           >
             Escape from a python jail with very strong input
             restrictions. Many later writeups reference this article.
