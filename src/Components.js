@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Icon from '@material-ui/core/Icon';
@@ -103,6 +105,15 @@ export function Publication({date, title, href, at, children}) {
 }
 
 export function Github({name, stars, users, children}) {
+
+    const [starCount, setStarCount] = useState(stars);
+
+    useEffect(() => {
+        fetch("https://api.github.com/repos/wapiflapi/" + name)
+            .then(res => res.json())
+            .then(res => setStarCount(res.stargazers_count));
+    });
+
     return (
         <Box my={1}>
           <Entry
@@ -112,10 +123,10 @@ export function Github({name, stars, users, children}) {
                   <strong>{name}</strong>
                 </Link>
             }
-            leftTitle={stars || users}
+            leftTitle={users || starCount }
             icon={
                 <Icon fontSize="small">
-                  {stars ? "star" : "people"}
+                  {users ? "people" : "star"}
                 </Icon>
             }
             desc={children}
