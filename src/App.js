@@ -295,7 +295,7 @@ function Work() {
             <Entry title={
                 <Typography variant="h4" component="span">
                   <small>
-                    (cont.) experiences - internships
+                    Experiences - internships
                   </small>
                 </Typography>
             }/>
@@ -404,14 +404,23 @@ function Publications() {
         <Section title="Publications">
 
           <div className="printOnly">
-            <Entry desc={
-                <span>
-                  Links to the articles can be found
-                  on <Link href="%PUBLIC_URL%">
-                       wapiflapi.github.io/resume
-                     </Link>
-                </span>
-            } />
+            <Entry
+              desc={
+                  <span>
+                    Links to the articles can be found
+                    on <Link href="%PUBLIC_URL%">
+                         wapiflapi.github.io/resume
+                       </Link>
+                  </span>
+              }
+              leftTitle={
+                  <img
+                    className="qrcode"
+                    alt="QR code to online resume"
+                    src="./resumeqr.png"
+                  />
+              }
+            />
           </div>
 
           <Experience

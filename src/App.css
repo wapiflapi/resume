@@ -20,6 +20,11 @@
     display: none !important;
   }
 
+  .qrcode {
+    max-height: 7.2em;
+    margin-top: -6em;
+  }
+
 }
 
 .printOnly {
