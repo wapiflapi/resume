@@ -251,7 +251,7 @@ function Work() {
             After months of weekly strategy consulting, I joined the
             project full time to lead the work on a new app. I built
             the software using agile and user-centric methods which
-            allowed us to test market strategies and itterate quickly.
+            allowed us to test market strategies and iterate quickly.
           </Experience>
 
           <Experience
