@@ -166,7 +166,7 @@ function Skills() {
             title="CI/CD"
             at="AWS, Azure, GCP"
           >
-            GitHub, GitLab, Docker, Kubernetes, Helm
+            GitHub, GitLab, Docker, Kubernetes, Helm, OpenFaaS
           </Experience>
 
           <Experience
@@ -227,9 +227,33 @@ function Work() {
             at="Freelance, remote and Toulouse FR"
           >
             After working pro-bono with multiple early-stage startups
-            I started as a freelance consultant. Challenging teams and
+            I now do freelance consulting. Challenging teams and
             helping them get the most value out of their time by
             facilitating technical and strategic decisions.
+          </Experience>
+
+          <Experience
+            date="2021 - present"
+            title="Bug Bounty Hunter"
+            at="gitlab.com and others via hackerone.com, fully remote"
+          >
+            Identifying errors with business logic or other security
+            vulnerabilities. I report high and critical (CVSS 7+)
+            issues to well known projects and work with their teams to
+            assess impact and remediation. This has a direct effect on
+            their products and the safety of their users.
+          </Experience>
+
+          <Experience
+            date="Mar. 2021 - present"
+            title="Expert Python Consultant"
+            at="CISCO, fully remote"
+          >
+            Design of multiple microservices and FaaSs using the
+            Openfaas stack running on a large Kubernetes cluster with
+            Cloudevents. Doing developer advocacy as well as training for
+            the rest of the team to set-up a good environment for
+            futur developers.
           </Experience>
 
           <Experience
@@ -262,13 +286,22 @@ function Work() {
 
             Witnessing the team scale from five to 30+, solving the
             problems of pushing content to thousands of connected
-            devices, I helped restructure a monolith into micro
-            services and contributed to the open source Python and
-            GraphQL ecosystem.
+            devices, I helped restructure a monolith and contributed
+            to the open source Python and GraphQL ecosystem.
 
             I had the opportunity to work on innovative algorithms but
             also to improve our internal training, tooling and culture.
           </Experience>
+
+          <div className="newpage">
+            <Entry title={
+                <Typography variant="h4" component="span">
+                  <small>
+                    Earlier experience & internships
+                  </small>
+                </Typography>
+            }/>
+          </div>
 
           <Experience
             date="2011 - 2015"
@@ -286,20 +319,9 @@ function Work() {
             title="Security Consultant"
             at="part-time at Neogeo Technologies, Toulouse FR"
           >
-            I assessed and helped increase the security standards of
-            our client's web applications by performing audits and
-            penetration tests.
+            I assessed and helped increase our clients security
+            standards by performing audits and penetration tests.
           </Experience>
-
-          <div className="newpage">
-            <Entry title={
-                <Typography variant="h4" component="span">
-                  <small>
-                    Experiences - internships
-                  </small>
-                </Typography>
-            }/>
-          </div>
 
           <Experience
             date="May - August 2013"
@@ -316,9 +338,8 @@ function Work() {
             title="C & Embedded Engineer"
             at="Airbus Innovation Cell, Toulouse FR"
           >
-            Through a partnership with Epitech I worked with Airbus
-            engineers on prototyping distributed architectures using
-            embedded hardware.
+            I worked with Airbus engineers on prototyping distributed
+            architectures using embedded hardware.
           </Experience>
 
           <Experience
@@ -326,9 +347,8 @@ function Work() {
             title="Teaching Assistant"
             at="Epitech, Toulouse FR"
           >
-            I mentored students, helping them discover new methods and
-            techniques. I supervised practical work and participated
-            in the assessment process.
+            I mentored students, supervised practical work and
+            participated in the assessment process.
           </Experience>
 
           <Experience
@@ -360,9 +380,8 @@ function Software() {
             stars="564"
             forks="75"
           >
-            A visual reverse engineering tool I wrote as part of my
-            ressearch project at the University of Kent. Introducing
-            new techniques to the open source community.
+            A visual reverse engineering tool that introduced new
+            techniques to the open source community.
           </Github>
           <Github
             name="villoc"
@@ -389,10 +408,8 @@ function Software() {
             stars="37"
             forks="7"
           >
-            An extension framework and a collection of plugins for the
-            GNU Project Debugger, at first a tool for my own use it
-            became a way to explore gdb internals and provide utility
-            to other security engineers.
+            A set of GNU Project Debugger extensions, written to
+            explore its internals and assist reverse engineering.
           </Github>
         </Section>
     );
@@ -437,8 +454,7 @@ function Publications() {
             title="Intro to Cache Attacks & Side Channels"
             at="Epitech open days"
           >
-            An introduction for the general public to a very complex
-            topic, giving a glimpse into advanced exploitation of
+            Introducing the general public to advanced exploitation of
             internet vulnerabilities.
           </Experience>
 
@@ -465,9 +481,9 @@ function Publications() {
             title="Visualizing a single null-byte heap overflow exploitation"
             href="https://wapiflapi.github.io/2015/04/22/single-null-byte-heap-overflow.html"
           >
-            Building on work by Google's Project Zero, ressearch into
-            exploiting a specific vulnerability and introduction of a
-            new tool (villoc) to facilitate the analysis.
+            Following work by Google's Project Zero, ressearch and the
+            introduction of a new tool (villoc) to facilitate
+            analysis.
           </Publication>
 
           <Publication
