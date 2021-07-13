@@ -21,7 +21,7 @@
   }
 
   .qrcode {
-    max-height: 7.2em;
+    max-height: 6em;
     margin-top: -6em;
   }
 
@@ -37,7 +37,7 @@
 
 .smallPhoto {
   display: none;
-  max-height: 7.2em;
+  max-height: 6em;
 }
 
 .largePhoto {
